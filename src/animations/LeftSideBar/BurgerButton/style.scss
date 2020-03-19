@@ -1,0 +1,15 @@
+.LeftSideBar__BurgerButton {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: 1em;
+  z-index: 2;
+
+  i {
+    background-color: gray;
+    width: 2em;
+    height: 0.25em;
+    margin: 0.15em;
+    border-radius: 0.125em;
+  }
+}
